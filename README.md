@@ -8,7 +8,7 @@
 
 * [ ] Add footer hover event on svg elements
 
-- [ ] Place background pngs 
+- [x] Place background pngs 
 
 * [ ] Create FAQ section 
 
