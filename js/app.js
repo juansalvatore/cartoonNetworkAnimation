@@ -1,21 +1,4 @@
 document.addEventListener('DOMContentLoaded', event => {
-  // // arm animation
-  // document.getElementById('Arm').addEventListener('load', () => {
-  //   let doc = this.getSVGDocument()
-  // })
-  // // tail animation
-  // document.getElementById('tail').addEventListener('load', () => {
-  //   console.log(this)
-  //   this.css({ transform: 'scale(2)' })
-  // })
-  // // eyes animation
-  // document.getElementById('eyes').addEventListener('load', () => {
-  //   let doc = this.getSVGDocument()
-  // })
-  // // eyebrows animation
-  // document.getElementById('eyebrows').addEventListener('load', () => {
-  //   let doc = this.getSVGDocument()
-  // })
   life = () => {
     var tl = new TimelineMax({
       paused: false,
@@ -26,8 +9,6 @@ document.addEventListener('DOMContentLoaded', event => {
     tl
       .add('life')
       .to('#Arm', 0.4, { scaleX: 1.1, ease: Linear.easeInOut }, 'samsies')
-      .from('#eyebrows', 0.2, { y: 2, ease: Linear.easeIn }, 'samsies')
-      .to('#eyebrows', 0.5, { y: -5, ease: Linear.easeIn }, 'samsies')
       .from(
         '#tail',
         1,
@@ -54,7 +35,22 @@ document.addEventListener('DOMContentLoaded', event => {
     return tl
   }
 
+  eyebrow = () => {
+    var tl = new TimelineMax({
+      paused: false,
+      repeat: -1,
+      yoyo: true,
+      delay: 0,
+    })
+    tl
+      .add('eyebrow')
+      .from('#eyebrows', 0.1, { y: 0, ease: Linear.easeIn }, 'samsies')
+      .to('#eyebrows', 0.1, { y: 2, ease: Linear.easeIn }, 1)
+      .to('#blink', 0.04, { opacity: 1, ease: Linear.easeIn }, 1.5)
+  }
+
   var master = new TimelineMax()
   master /*.add(fly)*/
     .add(life)
+    .add(eyebrow)
 })

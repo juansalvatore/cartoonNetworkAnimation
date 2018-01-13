@@ -64,3 +64,11 @@ body {
   left: 480px;
   top: -135px;
 }
+
+#blink {
+  opacity: 0;
+  position: relative;
+  left: -374px;
+  top: -179px;
+  z-index: 20;
+}
