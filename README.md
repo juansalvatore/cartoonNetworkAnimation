@@ -12,7 +12,7 @@
 
 * [ ] Create FAQ section 
 
-- [ ] Illustrate SVG character in Sketch
+- [x] Illustrate SVG character in Sketch
 
 * [ ] Create character animation with GSAP and raw javascript
 
