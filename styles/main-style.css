@@ -3,13 +3,15 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  font-family: "Lato", sans-serif, arial;
 }
 
 #rigby {
   position: relative;
-  top: 200px;
-  left: 200px;
+  top: 231px;
+  left: 54px;
   transform: scale(0.9);
 }
 
@@ -20,7 +22,7 @@ body {
 #tail {
   position: relative;
   left: 60px;
-  top: -10px;
+  top: -20px;
   z-index: 0;
 }
 
@@ -38,13 +40,13 @@ body {
 #rightLeg {
   position: relative;
   left: 230px;
-  top: 70px;
+  top: 55px;
 }
 
 #leftLeg {
   position: relative;
   left: 245px;
-  top: 70px;
+  top: 55px;
 }
 
 #eyes {
@@ -70,5 +72,57 @@ body {
   position: relative;
   left: -374px;
   top: -179px;
+  z-index: 20;
+}
+
+#tres-osos {
+  position: absolute;
+  transform: scale(0.15);
+  top: 10px;
+  right: -500px;
+}
+
+#square-grey-triangles {
+  position: absolute;
+  transform: scale(0.4);
+  top: -72px;
+  right: 560px;
+}
+
+#blue-squares {
+  position: absolute;
+  transform: scale(0.82);
+  left: -6px;
+  bottom: 26px;
+}
+
+#cartoon-network {
+  position: absolute;
+  transform: scale(0.21);
+  top: -73px;
+  left: -148px;
+}
+
+#faq-container {
+  position: absolute;
+  width: 892px;
+  height: 410px;
+  background-color: black;
+  right: 262px;
+  top: 150px;
+}
+
+#faq-left-tile-bg {
+  position: relative;
+  transform: scale(0.34);
+  bottom: 358px;
+  left: -287px;
+}
+
+#square-diagonal-lines {
+  position: relative;
+  top: -755px;
+  transform: scale(0.35);
+  left: 258px;
   z-index: 20;
 }
