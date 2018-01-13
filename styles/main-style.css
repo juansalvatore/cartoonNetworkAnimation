@@ -26,8 +26,8 @@ body {
 
 #rightArm {
   position: relative;
-  left: -160px;
-  top: -78px;
+  left: 160px;
+  top: -168px;
 }
 
 #leftArm {
@@ -57,4 +57,10 @@ body {
   position: relative;
   top: -207px;
   left: -230px;
+}
+
+#eyeStructure {
+  position: relative;
+  left: 480px;
+  top: -135px;
 }

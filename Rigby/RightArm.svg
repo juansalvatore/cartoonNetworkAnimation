@@ -6,7 +6,21 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
         <g id="Arm" transform="translate(5.000000, 4.000000)" stroke="#000000">
-            <path d="M0.5,0.5 C0.5,0.5 -2.9006472,71.8438447 16.5,76.5 C35.9006472,81.1561553 75.5,18.5 75.5,18.5" id="Line" stroke-width="9"></path>
+            <path d="
+                M0.5,0.5 
+                C0.5,0.5 
+                -2.9006472,71.8438447 
+                16.5,76.5 
+                C35.9006472,81.1561553 
+                75.5,18.5 
+                75.5,18.5
+                " id="armStructure" stroke-width="9">
+            </path>    
+
+        <!-- <g id="Arm" transform="translate(5.000000, 4.000000)" stroke="#000000" stroke-width="9">
+            <path d="M0.5,0.5 C0.5,0.5 -2.9006472,71.8438447 16.5,76.5 C35.9006472,81.1561553 108.5,20 108.5,20" id="Line"></path>
+        </g>
+  -->
             <path d="M76,17 C76,17 71.8240412,15.4721919 70.5,14.25 C69.1759588,13.0278081 68,11.5 68,11.5" id="Line" stroke-width="6"></path>
             <path d="M77.5,17.5 C77.5,17.5 83.4669137,15.7702194 88,13 C92.5330863,10.2297806 95.5,6.5 95.5,6.5" id="Line" stroke-width="6"></path>
             <path d="M78.5,20.5 L92.5,15.5" id="Line" stroke-width="6"></path>
