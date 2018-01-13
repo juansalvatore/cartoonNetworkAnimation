@@ -12,6 +12,8 @@
 
 * [ ] Create FAQ section 
 
-- [ ] Create character animation with GSAP and raw javascript
+- [ ] Illustrate SVG character in Sketch
 
-* [ ] Add final touches 
+* [ ] Create character animation with GSAP and raw javascript
+
+- [ ] Add final touches 
