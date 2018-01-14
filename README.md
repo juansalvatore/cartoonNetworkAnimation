@@ -2,7 +2,7 @@
 
 ### Progress
 
-* [ ] Create navbar
+* [x] Create navbar
 
 - [ ] Create footer
 
