@@ -25,6 +25,6 @@
 
 <img src="https://image.ibb.co/dky7xR/Captura_de_pantalla_2018_01_13_a_la_s_20_21_30.png" alt="Captura_de_pantalla_2018_01_13_a_la_s_20_21_30" border="0">
 
-- [ ] Animate dots converting to crosses
+- [x] Animate dots converting to crosses
 
 * [ ] Add final touches 
