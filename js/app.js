@@ -105,15 +105,19 @@ document.addEventListener('DOMContentLoaded', event => {
     })
     tl
       .add('loading')
-      .from('#loading', 1, { delay: 10, opacity: 1, ease: Linear.easeIn }, 3)
+      .from('#loading', 1, { paused: true, opacity: 1, ease: Linear.easeIn }, 3)
       .to('#loading', 1.6, { opacity: 0, ease: Linear.easeIn }, 0.6)
   }
 
   var master = new TimelineMax()
   master /*.add(fly)*/
-    .add(loading)
     .add(life)
     .add(eyebrow)
     .add(bears)
     .add(cross)
+    .add(loading)
+
+  setTimeout(() => {
+    document.getElementById('loading').style.display = 'none'
+  }, 2500)
 })
