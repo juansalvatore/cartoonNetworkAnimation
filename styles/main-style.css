@@ -213,3 +213,26 @@ body {
 #button:hover {
   background-color: white;
 }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 189px;
+  position: absolute;
+  right: 5px;
+  bottom: -235px;
+}
+
+.footer svg {
+  transform: scale(0.3);
+}
+
+.footer svg:hover path {
+  cursor: pointer;
+  fill: #26d9a6;
+}
+
+.footer path {
+  transition: all ease-in-out 200ms;
+}
