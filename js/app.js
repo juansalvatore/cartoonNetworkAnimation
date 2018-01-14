@@ -94,12 +94,24 @@ document.addEventListener('DOMContentLoaded', event => {
       .from('#cross-4', 0.1, { rotation: 0, ease: Linear.easeIn }, 'samsies')
       .to('#cross-4', 1.6, { rotation: 720, ease: Linear.easeIn }, 1)
       .to('#cross-4', 1, { delay: 2, opacity: 0 }, 0.3)
+  }
 
-    // second stage
+  loading = () => {
+    var tl = new TimelineMax({
+      paused: false,
+      repeat: 0,
+      yoyo: false,
+      delay: 0,
+    })
+    tl
+      .add('loading')
+      .from('#loading', 1, { delay: 10, opacity: 1, ease: Linear.easeIn }, 3)
+      .to('#loading', 1.6, { opacity: 0, ease: Linear.easeIn }, 0.6)
   }
 
   var master = new TimelineMax()
   master /*.add(fly)*/
+    .add(loading)
     .add(life)
     .add(eyebrow)
     .add(bears)
