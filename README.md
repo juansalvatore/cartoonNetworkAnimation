@@ -4,9 +4,9 @@
 
 * [x] Create navbar
 
-- [ ] Create footer
+- [x] Create footer
 
-* [ ] Add footer hover event on svg elements
+* [x] Add footer hover event on svg elements
 
 - [x] Place background pngs 
 
