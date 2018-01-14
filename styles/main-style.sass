@@ -1,5 +1,9 @@
 $fontFamily: 'Lato', sans-serif, arial
 
+a 
+  text-decoration: none
+  color: black
+
 body 
   margin: 0 
   padding: 0
@@ -8,6 +12,7 @@ body
   background-color: rgba(0,0,0,1)
   overflow: hidden
   font-family: $fontFamily
+  color: white
 
 // NAVBAR
 .navbar-container
@@ -114,6 +119,12 @@ body
   left: -148px
 
 // FAQ SECTION
+#faq-title
+  position: absolute
+  transform: scale(0.16)
+  top: -165px
+  right: 535px
+
 #faq-container
   position: absolute
   width: 892px
@@ -147,3 +158,33 @@ body
   background: -webkit-linear-gradient(45deg, #ca6e29 0%,#ca6f29 16%,#ca6f29 28%,#d82177 74%,#d82177 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, #ca6e29 0%,#ca6f29 16%,#ca6f29 28%,#d82177 74%,#d82177 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ca6e29', endColorstr='#d82177',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+// TEXT
+.rights
+  position: absolute
+  transform: scale(0.6)
+  bottom: 10px
+  left: -25px
+
+.find-answer
+  position: relative
+  z-index: 30
+  top: -1197px
+  right: -477px
+  font-size: 11px
+
+#button
+  position: relative
+  z-index: 30
+  top: -1197px
+  right: -507px
+  width: 300px
+  height: 100px
+  background-color: #26d9a6
+  font-size: 11px
+  font-weight: 400
+  padding: 13.52px 83px
+
+  &:hover
+    background-color: white
+    
