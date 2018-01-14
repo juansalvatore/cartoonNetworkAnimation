@@ -72,9 +72,36 @@ document.addEventListener('DOMContentLoaded', event => {
       .to('#blue-bear', 1, { x: -20, ease: Linear.easeInOut }, 'samsies')
   }
 
+  cross = () => {
+    var tl = new TimelineMax({
+      paused: false,
+      repeat: -1,
+      yoyo: false,
+      delay: 0,
+    })
+    tl
+      .add('cross')
+      .from('#cross-1', 0, { delay: 5 }, 0)
+      .from('#cross-1', 0.1, { rotation: 0, ease: Linear.easeIn }, 'samsies')
+      .to('#cross-1', 1.6, { rotation: 720, ease: Linear.easeIn }, 0.6)
+      .to('#cross-1', 1, { delay: 2, opacity: 0 }, 0.3)
+      .from('#cross-2', 0.1, { rotation: 0, ease: Linear.easeIn }, 'samsies')
+      .to('#cross-2', 1.6, { rotation: 720, ease: Linear.easeIn }, 0.7)
+      .to('#cross-2', 1, { delay: 2, opacity: 0 }, 0.3)
+      .from('#cross-3', 0.1, { rotation: 0, ease: Linear.easeIn }, 'samsies')
+      .to('#cross-3', 1.6, { rotation: 720, ease: Linear.easeIn }, 0.9)
+      .to('#cross-3', 1, { delay: 2, opacity: 0 }, 0.3)
+      .from('#cross-4', 0.1, { rotation: 0, ease: Linear.easeIn }, 'samsies')
+      .to('#cross-4', 1.6, { rotation: 720, ease: Linear.easeIn }, 1)
+      .to('#cross-4', 1, { delay: 2, opacity: 0 }, 0.3)
+
+    // second stage
+  }
+
   var master = new TimelineMax()
   master /*.add(fly)*/
     .add(life)
     .add(eyebrow)
     .add(bears)
+    .add(cross)
 })

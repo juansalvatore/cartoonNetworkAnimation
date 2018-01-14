@@ -37,6 +37,11 @@ body {
   color: #26d9a6;
 }
 
+#rigbyContainer {
+  position: absolute;
+  right: 880px;
+}
+
 #rigby {
   position: relative;
   top: 231px;
@@ -136,7 +141,7 @@ body {
   position: absolute;
   transform: scale(0.4);
   right: 10px;
-  bottom: 10px;
+  bottom: 7px;
 }
 
 #faq-title {
@@ -194,6 +199,7 @@ body {
   transform: scale(0.6);
   bottom: 10px;
   left: -25px;
+  font-weight: 100;
 }
 
 .find-answer {
@@ -244,4 +250,49 @@ body {
 
 .footer path {
   transition: all ease-in-out 200ms;
+}
+
+#crossContainer {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 75px;
+  top: 120px;
+  right: 1077px;
+}
+
+#cross-1 {
+  position: relative;
+  width: 10px;
+}
+
+#cross-2 {
+  position: relative;
+  width: 10px;
+}
+
+#cross-3 {
+  position: relative;
+  width: 10px;
+}
+
+#cross-4 {
+  position: relative;
+  width: 10px;
+}
+
+.pink-cross-a {
+  fill: #feb7ee;
+}
+
+.pink-cross-b {
+  fill: #dd52dd;
+}
+
+.yellow-cross-a {
+  fill: #fffd45;
+}
+
+.yellow-cross-b {
+  fill: #fffd45;
 }
