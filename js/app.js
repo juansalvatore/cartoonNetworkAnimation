@@ -119,5 +119,5 @@ document.addEventListener('DOMContentLoaded', event => {
 
   setTimeout(() => {
     document.getElementById('loading').style.display = 'none'
-  }, 2500)
+  }, 3200)
 })
