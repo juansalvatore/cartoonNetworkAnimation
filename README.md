@@ -8,7 +8,7 @@
 
 * [ ] Add footer hover event on svg elements
 
-- [ ] Place background pngs 
+- [x] Place background pngs 
 
 * [ ] Create FAQ section 
 
@@ -19,8 +19,12 @@
 <img src="https://image.ibb.co/kgHiMm/Captura_de_pantalla_2018_01_13_a_la_s_17_13_10.png" alt="Captura_de_pantalla_2018_01_13_a_la_s_17_13_10" border="0">
 
 
-- [ ] Illustrate SVG bears and crosses
+- [x] Illustrate SVG bears and crosses
 
-* [ ] Animate bears and dots converting to crosses
+* [x] Animate bears 
 
-- [ ] Add final touches 
+<img src="https://image.ibb.co/dky7xR/Captura_de_pantalla_2018_01_13_a_la_s_20_21_30.png" alt="Captura_de_pantalla_2018_01_13_a_la_s_20_21_30" border="0">
+
+- [ ] Animate dots converting to crosses
+
+* [ ] Add final touches 
