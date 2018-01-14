@@ -132,6 +132,13 @@ body {
   left: -148px;
 }
 
+#pink-triangles {
+  position: absolute;
+  transform: scale(0.4);
+  right: 10px;
+  bottom: 10px;
+}
+
 #faq-title {
   position: absolute;
   transform: scale(0.16);
