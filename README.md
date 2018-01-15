@@ -3,7 +3,7 @@
 ### (Almost) final version
 
 <img src="https://image.ibb.co/d0iCz6/Captura_de_pantalla_2018_01_14_a_la_s_19_48_20.png" alt="Captura_de_pantalla_2018_01_14_a_la_s_19_48_20" border="0">
-<h4>If you want to see the website in action:</h4> <a href="https://mediamonks-cartoon.herokuapp.com/">https://mediamonks-cartoon.herokuapp.com/</a>
+<h4>If you want to see the website in action:</h4> <a href="https://mediamonks-cartoon.herokuapp.com/" target="_blank">https://mediamonks-cartoon.herokuapp.com/</a>
 
 ### Progress
 
