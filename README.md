@@ -15,7 +15,7 @@
 
 - [x] Place background pngs 
 
-* [ ] Create FAQ section 
+* [x] Create FAQ section 
 
 - [x] Illustrate SVG Rigby in Sketch
 
@@ -32,4 +32,4 @@
 
 - [x] Animate dots converting to crosses
 
-* [ ] Add final touches 
+* [x] Add final touches 
