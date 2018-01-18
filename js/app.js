@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', event => {
     })
     tl
       .add('life')
-      .to('#Arm', 0.4, { scaleX: 1.1, ease: Linear.easeInOut }, 'samsies')
+      .to('#Arm', 0.4, { scaleX: 1.1, ease: Linear.easeInOut }, 'rigby-life')
       .from(
         '#tail',
         1,
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', event => {
           rotation: -30,
           ease: Linear.easeInOut,
         },
-        'samsies'
+        'rigby-life'
       )
       .to(
         '#tail',
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', event => {
           rotation: 50,
           ease: Linear.easeInOut,
         },
-        'samsies'
+        'rigby-life'
       )
     return tl
   }
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', event => {
     })
     tl
       .add('eyebrow')
-      .from('#eyebrows', 0.1, { y: 0, ease: Linear.easeIn }, 'samsies')
+      .from('#eyebrows', 0.1, { y: 0, ease: Linear.easeIn }, 'eyebrow-blink')
       .to('#eyebrows', 0.1, { y: 2, ease: Linear.easeIn }, 1)
       .to('#blink', 0.04, { opacity: 1, ease: Linear.easeIn }, 1.5)
   }
@@ -59,17 +59,17 @@ document.addEventListener('DOMContentLoaded', event => {
     tl
       .add('bears')
       .from('#white-bear', 0.2, { x: 460, ease: Linear.easeInOut }, 3)
-      .to('#white-bear', 0.5, { x: 0, ease: Linear.easeInOut }, 'samsies')
-      .to('#white-bear', 0.5, { x: -10, ease: Linear.easeInOut }, 'samsies')
-      .to('#white-bear', 1, { x: -10, ease: Linear.easeInOut }, 'samsies')
+      .to('#white-bear', 0.5, { x: 0, ease: Linear.easeInOut }, 'bear-pop')
+      .to('#white-bear', 0.5, { x: -10, ease: Linear.easeInOut }, 'bear-pop')
+      .to('#white-bear', 1, { x: -10, ease: Linear.easeInOut }, 'bear-pop')
       .from('#red-bear', 0.2, { x: 460, ease: Linear.easeInOut }, 2.9)
-      .to('#red-bear', 0.5, { x: 0, ease: Linear.easeInOut }, 'samsies')
-      .to('#red-bear', 0.5, { x: -20, ease: Linear.easeInOut }, 'samsies')
-      .to('#red-bear', 1, { x: -20, ease: Linear.easeInOut }, 'samsies')
+      .to('#red-bear', 0.5, { x: 0, ease: Linear.easeInOut }, 'bear-pop')
+      .to('#red-bear', 0.5, { x: -20, ease: Linear.easeInOut }, 'bear-pop')
+      .to('#red-bear', 1, { x: -20, ease: Linear.easeInOut }, 'bear-pop')
       .from('#blue-bear', 0.2, { x: 460, ease: Linear.easeInOut }, 2.95)
-      .to('#blue-bear', 0.5, { x: 0, ease: Linear.easeInOut }, 'samsies')
-      .to('#blue-bear', 0.5, { x: -20, ease: Linear.easeInOut }, 'samsies')
-      .to('#blue-bear', 1, { x: -20, ease: Linear.easeInOut }, 'samsies')
+      .to('#blue-bear', 0.5, { x: 0, ease: Linear.easeInOut }, 'bear-pop')
+      .to('#blue-bear', 0.5, { x: -20, ease: Linear.easeInOut }, 'bear-pop')
+      .to('#blue-bear', 1, { x: -20, ease: Linear.easeInOut }, 'bear-pop')
   }
 
   cross = () => {
